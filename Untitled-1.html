@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Магазин обуви</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+    </style>
+    <h1>Магазин обуви</h1>
+    <ul>
+        <li><a href="Untitled-1.html">Каталог</a></li>
+        <li><a href="index.html">Главная</a></li>
+        <style>
+            h1 {
+                color: white;
+                background-color: darkblue;
+                margin: 0;
+            }
+
+            ul {
+                margin: 0;
+                color: white;
+                background-color: lightblue;
+                padding: 15px;
+            }
+        </style>
+    </ul>
+    <hr>
+
+    <h2>Корзина</h2>
+    <ul id="cart"></ul>
+    <p id="total">Итого: 0</p>
+
+    <button id="pay">Оплатить</button>
+    <button id="clear">Очистить корзину</button>
+
+
+    <h2>Каталог</h2>
+    <div>
+        <button data-filter="all">Все</button>
+        <button data-filter="casual">Повседневные</button>
+        <button data-filter="sport">Спорт</button>
+        <button data-filter="winter">Зима</button>
+    </div>
+
+    <div class="product" data-price="3000" data-category="casual">
+
+        <a href="shoes1.html">
+            <img src="19a58f8f942695562616aff40b334223.jpg" width="150">
+        </a>
+
+        <p>
+            <a href="shoes1.html">Однотонные мокасины</a>
+        </p>
+
+        <button class="add">Добавить в корзину</button>
+
+    </div>
+
+    <div class="product" data-price="5000" data-category="sport">
+
+        <a href="shoes2.html">
+            <img src="f0b2b4ea310d9a47e424e53173ff6c06.jpg" width="150">
+        </a>
+
+        <p>
+            <a href="shoes2.html">Кеды из кожи с логотипом</a>
+        </p>
+
+        <button class="add">Добавить в корзину</button>
+
+    </div>
+
+    <div class="product" data-price="7000" data-category="winter">
+
+        <a href="shoes3.html">
+            <img src="3c43e48455f9657fa7c6ad9d77e96e66.jpg" width="150">
+        </a>
+
+        <p>
+            <a href="shoes3.html">Модные брендовые женские ботинки</a>
+        </p>
+
+        <button class="add">Добавить в корзину</button>
+
+    </div>
+
+    <hr>
+    <div style="clear: both;"></div>
+    <footer>
+        &copy; 2026 Все права защищены
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
